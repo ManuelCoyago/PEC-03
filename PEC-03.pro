@@ -10,13 +10,16 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    nuevatarea.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    nuevatarea.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    nuevatarea.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
